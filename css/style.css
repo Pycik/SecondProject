@@ -1,0 +1,119 @@
+body {
+	background: url(../img/_bg.jpg);
+	text-align: center;
+}
+h1 {
+	font-size: 55px;
+	font-weight: bold;
+}
+h2 {
+	font-size: 24px;
+}
+a {
+	color: #353535;
+	text-decoration: none;
+}
+a:hover , .menu .line{
+	color: #fff;
+	text-decoration: underline;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+
+}
+.header{
+	overflow: hidden;
+	margin: 0px;
+}
+.menu {
+	width: 960px;
+	height: 110px;
+	background: url(../img/menu.png) repeat-y;
+	color: grey;
+}
+.logo {
+	float: left;
+	width: 100px;
+	height: 136px;
+	margin-left: -8px;
+	margin-top: 25px;
+}
+
+.menu ul{
+	padding-top:33px;
+	padding-left: 25px;
+	overflow: hidden;
+}
+.menu ul li {
+	float: left;
+	font: bold 24px Arial,serif;
+	margin-right: 70px;
+	list-style: none;
+
+}
+
+
+.menu ul li span {
+	color: red;
+}
+
+.menu .phone {
+	float: right;
+	margin-right: 20px;
+}
+.lines {
+	background: url(../img/lines.png) no-repeat;
+	width: 500px;
+	height: 130px;
+	margin: -40px auto -30px 75px;
+
+}
+.content {
+	width: 590px;
+	margin: 0 auto;
+}
+.redh2 {
+	font-size: 50px;
+	color: red;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+.content ul li {
+	list-style: none;
+
+}
+.social li {
+	text-align: left;
+	height: 60px;
+	padding-left: 60px;
+	word-spacing: 5px;
+}
+.social li a{
+	
+	font-size: 24px;
+	font-weight: bold;
+}
+.social {
+	width: 350px;
+	margin: 0 auto;
+
+}
+.instagram{
+	background: url(../img/tut.jpg) no-repeat;
+}
+.RSS {
+	background: url(../img/yo.jpg) no-repeat;
+}
+.Linkedin{
+	background: url(../img/in.jpg) no-repeat;
+}	
+.Twitter{
+	background: url(../img/twiter.jpg) no-repeat;
+}
+.Facebook {
+	background: url(../img/face.png) no-repeat;
+
+}
